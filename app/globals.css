@@ -1,4 +1,4 @@
-}@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap");
 
 :root {
   --bg: #08070a;
@@ -90,7 +90,6 @@ button:disabled {
 .content {
   position: relative;
   z-index: 1;
-
   width: min(100% - 32px, 850px);
   margin: 0 auto;
   padding: 28px 0 40px;
@@ -117,15 +116,11 @@ button:disabled {
 .brand-icon {
   width: 40px;
   height: 40px;
-
   display: grid;
   place-items: center;
-
   border: 1px solid var(--border);
   border-radius: 13px;
-
   color: #ffc5df;
-
   background:
     linear-gradient(
       145deg,
@@ -142,9 +137,7 @@ button:disabled {
 
 .brand-subtitle {
   margin-top: 2px;
-
   color: var(--muted-2);
-
   font-size: 9px;
   font-weight: 700;
   letter-spacing: 0.24em;
@@ -154,16 +147,11 @@ button:disabled {
   display: flex;
   align-items: center;
   gap: 7px;
-
   padding: 8px 12px;
-
   border: 1px solid rgba(255, 160, 205, 0.13);
   border-radius: 999px;
-
   color: #bdaab7;
-
   background: rgba(255, 255, 255, 0.025);
-
   font-size: 9px;
   font-weight: 700;
   letter-spacing: 0.16em;
@@ -172,9 +160,7 @@ button:disabled {
 .status-dot {
   width: 6px;
   height: 6px;
-
   border-radius: 50%;
-
   background: #8ee0b0;
   box-shadow: 0 0 10px rgba(142, 224, 176, 0.8);
 }
@@ -193,9 +179,7 @@ button:disabled {
   display: flex;
   align-items: center;
   gap: 7px;
-
   color: #bc8da8;
-
   font-size: 10px;
   font-weight: 700;
   letter-spacing: 0.25em;
@@ -203,9 +187,7 @@ button:disabled {
 
 .hero h1 {
   margin: 15px 0 17px;
-
   font-family: "Playfair Display", serif;
-
   font-size: clamp(44px, 7vw, 76px);
   line-height: 0.98;
   letter-spacing: -0.045em;
@@ -218,9 +200,7 @@ button:disabled {
 .hero p {
   max-width: 590px;
   margin: 0;
-
   color: var(--muted);
-
   font-size: 15px;
   line-height: 1.8;
 }
@@ -232,18 +212,15 @@ button:disabled {
 .glass-card {
   border: 1px solid var(--border);
   border-radius: var(--radius);
-
   background:
     linear-gradient(
       145deg,
       rgba(38, 19, 35, 0.88),
       rgba(13, 10, 14, 0.88)
     );
-
   box-shadow:
     0 25px 80px rgba(0, 0, 0, 0.28),
     inset 0 1px 0 rgba(255, 255, 255, 0.025);
-
   backdrop-filter: blur(20px);
 }
 
@@ -265,7 +242,6 @@ button:disabled {
 
 .card-heading h2 {
   margin: 9px 0 0;
-
   font-size: 21px;
   line-height: 1.35;
   word-break: break-word;
@@ -274,18 +250,13 @@ button:disabled {
 .shield,
 .checker-icon {
   flex: 0 0 auto;
-
   width: 43px;
   height: 43px;
-
   display: grid;
   place-items: center;
-
   border: 1px solid rgba(255, 173, 213, 0.17);
   border-radius: 14px;
-
   color: #e8a8c9;
-
   background: rgba(255, 255, 255, 0.025);
 }
 
@@ -293,7 +264,6 @@ button:disabled {
   display: grid;
   grid-template-columns: 1fr auto;
   gap: 10px;
-
   margin-top: 25px;
 }
 
@@ -322,42 +292,32 @@ button:disabled {
 
 .primary-button {
   min-height: 48px;
-
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 9px;
-
   border-radius: 14px;
-
   color: white;
-
   background:
     linear-gradient(
       135deg,
       #d95191,
       #9d3e6e
     );
-
   box-shadow:
     0 12px 30px rgba(202, 65, 132, 0.18);
 }
 
 .secondary-button {
   min-width: 80px;
-
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 7px;
-
   padding: 0 16px;
-
   border-color: var(--border);
   border-radius: 14px;
-
   color: #d4bbc9;
-
   background: rgba(255, 255, 255, 0.025);
 }
 
@@ -365,43 +325,32 @@ button:disabled {
   display: grid;
   grid-template-columns: 1fr auto;
   gap: 10px;
-
   margin-top: 12px;
 }
 
 .input-wrap {
   min-width: 0;
-
   height: 48px;
-
   display: flex;
   align-items: center;
-
   overflow: hidden;
-
   border: 1px solid var(--border);
   border-radius: 14px;
-
   background: rgba(0, 0, 0, 0.15);
 }
 
 .input-prefix {
   padding-left: 15px;
-
   color: #9e8795;
 }
 
 .input-wrap input {
   width: 100%;
   min-width: 0;
-
   height: 100%;
-
   padding: 0 9px;
-
   outline: none;
   border: 0;
-
   color: var(--text);
   background: transparent;
 }
@@ -414,9 +363,7 @@ button:disabled {
 
 .domain-suffix {
   flex: 0 0 auto;
-
   padding-right: 14px;
-
   color: #9e8795;
   font-size: 13px;
 }
@@ -424,15 +371,11 @@ button:disabled {
 .icon-button {
   width: 48px;
   height: 48px;
-
   display: grid;
   place-items: center;
-
   border-color: var(--border);
   border-radius: 14px;
-
   color: #d7a5bd;
-
   background: rgba(255, 255, 255, 0.025);
 }
 
@@ -440,11 +383,8 @@ button:disabled {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
   margin-top: 19px;
-
   color: #806f7b;
-
   font-size: 11px;
 }
 
@@ -456,10 +396,8 @@ button:disabled {
 
 .toggle-label {
   position: relative;
-
   width: 42px;
   height: 23px;
-
   display: block;
 }
 
@@ -471,29 +409,20 @@ button:disabled {
 .toggle {
   position: absolute;
   inset: 0;
-
   border-radius: 999px;
-
   background: #302630;
-
   transition: 0.2s;
 }
 
 .toggle::after {
   content: "";
-
   position: absolute;
-
   width: 17px;
   height: 17px;
-
   top: 3px;
   left: 3px;
-
   border-radius: 50%;
-
   background: #a89aa4;
-
   transition: 0.2s;
 }
 
@@ -513,24 +442,19 @@ button:disabled {
 .notice,
 .error-box {
   margin: 14px 0;
-
   padding: 13px 15px;
-
   border-radius: 13px;
-
   font-size: 13px;
 }
 
 .notice {
   border: 1px solid rgba(133, 217, 170, 0.18);
-
   color: #b8e9cc;
   background: rgba(83, 174, 125, 0.08);
 }
 
 .error-box {
   border: 1px solid rgba(255, 103, 137, 0.2);
-
   color: #ffabbc;
   background: rgba(255, 74, 110, 0.07);
 }
@@ -553,15 +477,12 @@ button:disabled {
 
 .checker-heading h2 {
   margin: 10px 0 7px;
-
   font-size: 24px;
 }
 
 .checker-heading p {
   margin: 0;
-
   color: var(--muted);
-
   font-size: 13px;
   line-height: 1.6;
 }
@@ -570,56 +491,49 @@ button:disabled {
   display: grid;
   grid-template-columns: 1fr auto;
   gap: 10px;
-
   margin-top: 24px;
 }
 
 .checker-input-wrap {
   height: 50px;
-
   display: flex;
   align-items: center;
   gap: 10px;
-
   padding: 0 15px;
-
   border: 1px solid var(--border);
   border-radius: 15px;
-
   color: #b893a7;
-
   background: rgba(0, 0, 0, 0.18);
+  transition:
+    border-color 0.18s ease,
+    box-shadow 0.18s ease;
 }
 
 .checker-input-wrap:focus-within,
 .input-wrap:focus-within,
 .inbox-tools:focus-within {
   border-color: var(--border-hover);
-  box-shadow: 0 0 0 3px rgba(255, 92, 174, 0.045);
+  box-shadow:
+    0 0 0 3px rgba(255, 92, 174, 0.045);
 }
 
 .checker-input-wrap input {
   width: 100%;
   min-width: 0;
   height: 100%;
-
   outline: none;
   border: 0;
-
   color: var(--text);
   background: transparent;
 }
 
 .checker-button {
   min-width: 125px;
-
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 8px;
-
   border-radius: 15px;
-
   color: white;
   background:
     linear-gradient(
@@ -631,15 +545,11 @@ button:disabled {
 
 .checker-error {
   margin-top: 12px;
-
   padding: 11px 13px;
-
   border: 1px solid rgba(255, 103, 137, 0.2);
   border-radius: 12px;
-
   color: #ffabbc;
   background: rgba(255, 74, 110, 0.07);
-
   font-size: 12px;
 }
 
@@ -656,18 +566,14 @@ button:disabled {
   align-items: center;
   justify-content: space-between;
   gap: 15px;
-
   padding: 16px 17px;
-
   border: 1px solid var(--border);
   border-radius: 15px;
-
   background: rgba(255, 255, 255, 0.018);
 }
 
 .checker-results-head > div {
   min-width: 0;
-
   display: flex;
   flex-direction: column;
   gap: 5px;
@@ -675,9 +581,7 @@ button:disabled {
 
 .checker-results-head strong {
   overflow: hidden;
-
   color: #e7d6e0;
-
   font-size: 13px;
   font-weight: 500;
   text-overflow: ellipsis;
@@ -686,9 +590,7 @@ button:disabled {
 
 .message-count {
   flex: 0 0 auto;
-
   color: #aa8198;
-
   font-size: 11px;
 }
 
@@ -699,68 +601,50 @@ button:disabled {
 .message-list {
   display: flex;
   flex-direction: column;
-
   margin-top: 12px;
 }
 
 .message-row {
   width: 100%;
-
   display: flex;
   align-items: center;
   gap: 13px;
-
   padding: 15px 7px;
-
   text-align: left;
-
   border: 0;
   border-bottom: 1px solid rgba(255, 190, 222, 0.08);
-
   color: var(--text);
-
   background: transparent;
-
   cursor: pointer;
-
   transition: background 0.16s ease;
 }
 
 .message-row:hover {
   border-radius: 12px;
-
   background: rgba(255, 154, 202, 0.045);
 }
 
 .sender-avatar {
   flex: 0 0 auto;
-
   width: 42px;
   height: 42px;
-
   display: grid;
   place-items: center;
-
   border: 1px solid rgba(255, 174, 214, 0.15);
   border-radius: 13px;
-
   color: #e4a6c5;
-
   background:
     linear-gradient(
       145deg,
       rgba(255, 91, 174, 0.12),
       rgba(255, 255, 255, 0.02)
     );
-
   font-weight: 700;
 }
 
 .message-main {
   min-width: 0;
-
   flex: 1;
-
   display: flex;
   flex-direction: column;
   gap: 4px;
@@ -768,9 +652,7 @@ button:disabled {
 
 .message-main strong {
   overflow: hidden;
-
   color: #e8dce3;
-
   font-size: 13px;
   font-weight: 600;
   text-overflow: ellipsis;
@@ -779,9 +661,7 @@ button:disabled {
 
 .message-main span {
   overflow: hidden;
-
   color: #a695a0;
-
   font-size: 12px;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -794,9 +674,7 @@ button:disabled {
 
 .message-arrow {
   flex: 0 0 auto;
-
   color: #725f6b;
-
   transform: rotate(180deg);
 }
 
@@ -809,19 +687,16 @@ button:disabled {
   display: flex;
   flex-direction: column;
   align-items: center;
-
   text-align: center;
 }
 
 .checker-empty {
   padding: 45px 20px 22px;
-
   color: #756b73;
 }
 
 .checker-empty svg {
   margin-bottom: 13px;
-
   color: #b27d9b;
 }
 
@@ -832,7 +707,6 @@ button:disabled {
 
 .checker-empty span {
   margin-top: 5px;
-
   color: #776b74;
   font-size: 12px;
 }
@@ -843,7 +717,6 @@ button:disabled {
 
 .inbox-section {
   min-height: 360px;
-
   padding: 28px;
 }
 
@@ -856,50 +729,38 @@ button:disabled {
 
 .section-heading h2 {
   margin: 9px 0 0;
-
   font-size: 22px;
 }
 
 .refresh-button {
   width: 43px;
   height: 43px;
-
   display: grid;
   place-items: center;
-
   border-color: var(--border);
   border-radius: 14px;
-
   color: #ba91a8;
-
   background: rgba(255, 255, 255, 0.025);
 }
 
 .inbox-tools {
   height: 47px;
-
   display: flex;
   align-items: center;
   gap: 10px;
-
   margin-top: 23px;
   padding: 0 15px;
-
   border: 1px solid var(--border);
   border-radius: 14px;
-
   color: #846f7c;
-
   background: rgba(0, 0, 0, 0.14);
 }
 
 .inbox-tools input {
   width: 100%;
   height: 100%;
-
   outline: none;
   border: 0;
-
   color: var(--text);
   background: transparent;
 }
@@ -911,36 +772,26 @@ button:disabled {
 .empty-icon {
   width: 74px;
   height: 74px;
-
   display: grid;
   place-items: center;
-
   margin-bottom: 21px;
-
   border: 1px solid rgba(255, 174, 214, 0.15);
   border-radius: 22px;
-
   color: #df9fc0;
-
   background: rgba(255, 125, 184, 0.055);
-
   box-shadow:
     0 15px 45px rgba(0, 0, 0, 0.15);
 }
 
 .empty-state h3 {
   margin: 0;
-
   font-size: 17px;
 }
 
 .empty-state p {
   max-width: 380px;
-
   margin: 10px auto 0;
-
   color: #81737d;
-
   font-size: 13px;
   line-height: 1.7;
 }
@@ -958,50 +809,37 @@ button:disabled {
   display: inline-flex;
   align-items: center;
   gap: 7px;
-
   margin-bottom: 27px;
   padding: 9px 12px;
-
   border-color: var(--border);
   border-radius: 11px;
-
   color: #bfa2b2;
-
   background: rgba(255, 255, 255, 0.025);
-
   font-size: 12px;
 }
 
 .reader-heading {
   padding-bottom: 22px;
-
   border-bottom: 1px solid rgba(255, 190, 222, 0.09);
 }
 
 .reader-heading h2 {
   margin: 9px 0 7px;
-
   color: #f3e7ed;
-
   font-size: 23px;
   line-height: 1.35;
 }
 
 .reader-heading p {
   margin: 0;
-
   color: #aa919f;
-
   font-size: 13px;
 }
 
 .reader-heading small {
   display: block;
-
   margin-top: 7px;
-
   color: #655963;
-
   font-size: 10px;
 }
 
@@ -1011,17 +849,13 @@ button:disabled {
 
 .otp-box {
   position: relative;
-
   display: flex;
   align-items: center;
   gap: 12px;
-
   margin-top: 20px;
   padding: 16px 17px;
-
   border: 1px solid rgba(255, 141, 195, 0.18);
   border-radius: 15px;
-
   background: rgba(255, 92, 174, 0.055);
 }
 
@@ -1032,26 +866,20 @@ button:disabled {
 
 .otp-box strong {
   color: #f4b5d1;
-
   font-size: 22px;
   letter-spacing: 0.08em;
 }
 
 .otp-box button {
   margin-left: auto;
-
   width: 34px;
   height: 34px;
-
   display: grid;
   place-items: center;
-
   border: 1px solid var(--border);
   border-radius: 10px;
-
   color: #c99db5;
   background: rgba(255, 255, 255, 0.025);
-
   cursor: pointer;
 }
 
@@ -1062,18 +890,14 @@ button:disabled {
 .links-box {
   margin-top: 15px;
   padding: 16px;
-
   border: 1px solid var(--border);
   border-radius: 15px;
-
   background: rgba(255, 255, 255, 0.018);
 }
 
 .links-box h3 {
   margin: 0 0 10px;
-
   color: #cdbac5;
-
   font-size: 12px;
 }
 
@@ -1081,11 +905,8 @@ button:disabled {
   display: flex;
   align-items: flex-start;
   gap: 7px;
-
   margin-top: 8px;
-
   color: #dc8db6;
-
   font-size: 11px;
   line-height: 1.5;
   text-decoration: none;
@@ -1103,25 +924,18 @@ button:disabled {
 .email-body {
   margin-top: 18px;
   padding: 19px;
-
   border: 1px solid var(--border);
   border-radius: 16px;
-
   background: rgba(0, 0, 0, 0.16);
-
   overflow-x: auto;
 }
 
 .email-body pre {
   margin: 0;
-
   color: #c7bac2;
-
   font-family: "DM Sans", sans-serif;
-
   font-size: 13px;
   line-height: 1.75;
-
   white-space: pre-wrap;
   word-break: break-word;
 }
@@ -1134,11 +948,8 @@ button:disabled {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
   padding: 28px 3px 0;
-
   color: #5e555d;
-
   font-size: 9px;
   font-weight: 600;
   letter-spacing: 0.17em;
